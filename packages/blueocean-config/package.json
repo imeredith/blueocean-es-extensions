@@ -1,0 +1,20 @@
+{
+  "name": "@jenkins-cd/blueocean-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "watch": "tsc --watch",
+    "test": "jest"
+  },
+  "author": "Ivan Meredith",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.1.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@jenkins-cd/blueocean-fetch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Meredith",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/pem-jwk": "^1.5.0",
+    "typescript": "^3.1.5"
+  },
+  "dependencies": {
+    "@jenkins-cd/blueocean-config": "file:../blueocean-config",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.3.0",
+    "pem-jwk": "^1.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
